@@ -1,0 +1,20 @@
+{
+  "name": "bridge-command-design-patterns",
+  "version": "1.0.0",
+  "description": "Example of implementing two design patterns: Bridge and Command",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets @babel/preset-env ./index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "aws-sdk": "^2.416.0",
+    "fs-readfile-promise": "^3.0.1",
+    "googleapis": "^37.2.0",
+    "node-fetch": "^2.3.0"
+  },
+  "author": "Jacob Ramirez",
+  "license": "ISC"
+}
