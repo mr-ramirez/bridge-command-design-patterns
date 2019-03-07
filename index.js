@@ -8,7 +8,7 @@ const executeCommands = async () => {
   console.log('>> Executing first command');
   console.log('#######################################');
 
-  // await firstCommand.execute();
+  await firstCommand.execute();
 
   console.log('#######################################');
 
